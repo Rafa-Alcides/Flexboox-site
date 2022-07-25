@@ -1,0 +1,103 @@
+body, h1, h2, p, ul, li, a {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*Menu*/
+
+.menu-bg {
+    background: #333333;
+}
+
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu-logo {
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+
+.menu-nav a:hover {
+    color: #777;
+}
+
+/*Home*/
+
+.home-bg {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("/assets/bg.jpg") no-repeat right top fixed;
+    height: 574px;
+    background-size: cover;
+}
+
+.home {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+}
+
+.home-info {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-info h1{
+    font-size: 2.25em;
+    margin-top: 200px;
+}
+
+.home-info h2 {
+    line-height: 1.5;
+    margin-top: 20PX;
+    font-weight: 300;
+    color: aqua;
+    font-size: 17px;
+}
