@@ -101,3 +101,101 @@ img {
     color: aqua;
     font-size: 17px;
 }
+
+/*Sobre*/
+
+.sobre {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-info {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.sobre-info h1 {
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+.home-info p{ 
+    font-size: 1.25em;
+    line-height: 1.4;
+    color: #7c7c7c;
+}
+
+.sobre-img {
+    flex: 1;
+    align-self: center;
+    display: flex;
+}
+
+.sobre-img img {
+    display: flex;
+    margin: 0 auto;
+}
+
+/*Serviços*/
+
+.servicos-bg {
+    background-color: #f0f0f0;
+    background-size: cover;
+}
+
+.servicos {
+    max-width: 960px;
+    margin: 0 auto  ;
+}
+
+.servicos h1 {
+    font-size: 3em;
+    margin: 0 10px;
+    padding: 60px 0 20px 0;
+}
+
+.servicos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servicos-item {
+    flex: 1;
+    margin: 10px;
+    background: white;
+    margin-bottom: 100px;
+}
+
+.servicos-item h2 {
+    font-size: 1.5em;
+    color: black;
+    padding: 10px 10px;
+}
+
+.purple {
+    border-top: 8px solid #ae81ff;
+}
+
+.pink {
+    border-top: 8px solid #f9265e;
+}
+
+.blue {
+    border-top: 8px solid #66d9eb;
+}
+
+.red {
+    border-top: 8px solid #F01D00;
+}
+
+.green {
+    border-top: 8px solid #2AFA46;
+}
+
+.yellow {
+    border-top: 8px solid #F0F029;
+}
